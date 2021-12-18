@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Useless",
+            "request": "launch",
+            "mainClass": "Useless",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApplesDivision",
+            "request": "launch",
+            "mainClass": "ApplesDivision",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreatingString",
+            "request": "launch",
+            "mainClass": "CreatingString",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "TowerOfHanoi",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch GrayCode",
+            "request": "launch",
+            "mainClass": "GrayCode",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeReorder",
+            "request": "launch",
+            "mainClass": "PalindromeReorder",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinPiles",
+            "request": "launch",
+            "mainClass": "CoinPiles",
+            "projectName": "Introduction_2a2d1cf"
+        },
+        {
+            "name": "g++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++ build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
